@@ -1,0 +1,333 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "FoodChoice",
+  "desc": "This bot will help you choose your next meal.",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "FoodChoice"
+    },
+    {
+      "name": "Greetings"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "beef",
+      "roles": []
+    },
+    {
+      "name": "chicken",
+      "roles": []
+    },
+    {
+      "name": "pork",
+      "roles": []
+    },
+    {
+      "name": "vegetarian",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "beef",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "beef",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "book flight from london to paris on feb 14th",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "book flight to berlin on feb 14th",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "book me a flight from london to paris",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "chicken",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "chicken",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "flight to paris",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "flight to paris from london on feb 14th",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "fly from berlin to paris on may 5th",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "go to paris",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "going from paris to berlin",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hello bot",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi bot",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "i want to cook a beef dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "beef",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i want to cook a chicken dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "chicken",
+          "startPos": 17,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "i want to cook a pork dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "pork",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i want to cook a vegetarian dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "vegetarian",
+          "startPos": 17,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "i want to eat a beef dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "beef",
+          "startPos": 16,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i want to eat a chicken dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "chicken",
+          "startPos": 16,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "i want to eat a pork dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "pork",
+          "startPos": 16,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i want to eat a vegetarian dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "vegetarian",
+          "startPos": 16,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "i want to have a beef dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "beef",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i want to have a chicken dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "chicken",
+          "startPos": 17,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "i want to have a pork dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "pork",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i want to have a vegetarian dish",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "vegetarian",
+          "startPos": 17,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "pick a beef dish for me",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "beef",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "pick a chicken dish for me",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "chicken",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "pick a pork dish for me",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "pork",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "pick a vegetarian dish for me",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "vegetarian",
+          "startPos": 7,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "pork",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "pork",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "travel to paris",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "vegetarian",
+      "intent": "FoodChoice",
+      "entities": [
+        {
+          "entity": "vegetarian",
+          "startPos": 0,
+          "endPos": 9
+        }
+      ]
+    }
+  ],
+  "settings": []
+}
